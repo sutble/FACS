@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182B2ECD1F4D4024000480E6 /* Ch4_SD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182B2ECC1F4D4024000480E6 /* Ch4_SD.pdf */; };
+		182B2ECF1F4D402C000480E6 /* Ch7_SD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182B2ECE1F4D402C000480E6 /* Ch7_SD.pdf */; };
+		182B2ED11F4D4041000480E6 /* Ch6_SD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182B2ED01F4D4041000480E6 /* Ch6_SD.pdf */; };
+		182EC8A41F439AA400616478 /* AU1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8A31F439AA400616478 /* AU1.pdf */; };
+		182EC8A61F43CC3A00616478 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EC8A51F43CC3A00616478 /* MenuViewController.swift */; };
+		182EC8AA1F43CDB400616478 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EC8A91F43CDB400616478 /* MainNavigationController.swift */; };
+		182EC8AC1F45348F00616478 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EC8AB1F45348F00616478 /* TabViewController.swift */; };
+		182EC8B11F45848200616478 /* AU2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8AE1F45848200616478 /* AU2.pdf */; };
+		182EC8B21F45848200616478 /* AU4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8AF1F45848200616478 /* AU4.pdf */; };
+		182EC8B31F45848200616478 /* AU7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8B01F45848200616478 /* AU7.pdf */; };
+		182EC8B61F45A3DD00616478 /* Science Fair.otf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8B51F45A3DD00616478 /* Science Fair.otf */; };
+		182EC8C31F462B5F00616478 /* AU1_2_4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8B71F462B5F00616478 /* AU1_2_4.pdf */; };
+		182EC8C41F462B5F00616478 /* AU1_2_5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8B81F462B5F00616478 /* AU1_2_5.pdf */; };
+		182EC8C51F462B5F00616478 /* AU1_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8B91F462B5F00616478 /* AU1_2.pdf */; };
+		182EC8C61F462B5F00616478 /* AU1_4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8BA1F462B5F00616478 /* AU1_4.pdf */; };
+		182EC8C71F462B5F00616478 /* AU4_5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8BB1F462B5F00616478 /* AU4_5.pdf */; };
+		182EC8C81F462B5F00616478 /* AU5_7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8BC1F462B5F00616478 /* AU5_7.pdf */; };
+		182EC8C91F462B5F00616478 /* AU5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8BD1F462B5F00616478 /* AU5.pdf */; };
+		182EC8CA1F462B5F00616478 /* AU6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8BE1F462B5F00616478 /* AU6.pdf */; };
+		182EC8CB1F462B5F00616478 /* AU46.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8BF1F462B5F00616478 /* AU46.pdf */; };
+		182EC8CC1F462B5F00616478 /* AU67_43.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8C01F462B5F00616478 /* AU67_43.pdf */; };
+		182EC8CD1F462B5F00616478 /* Ch2_Muscles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8C11F462B5F00616478 /* Ch2_Muscles.pdf */; };
+		182EC8CE1F462B5F00616478 /* Ch2_SD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8C21F462B5F00616478 /* Ch2_SD.pdf */; };
+		182EC8D21F462F9800616478 /* AU43.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8D01F462F9800616478 /* AU43.pdf */; };
+		182EC8D31F462F9800616478 /* AU45.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8D11F462F9800616478 /* AU45.pdf */; };
+		182EC8E51F477DA800616478 /* AU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8E01F477DA800616478 /* AU.pdf */; };
+		182EC8EF1F47826900616478 /* AU9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8E91F47826900616478 /* AU9.pdf */; };
+		182EC8F01F47826900616478 /* AU10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8EA1F47826900616478 /* AU10.pdf */; };
+		182EC8F11F47826900616478 /* AU17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8EB1F47826900616478 /* AU17.pdf */; };
+		182EC8F21F47826900616478 /* AU15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8EC1F47826900616478 /* AU15.pdf */; };
+		182EC8F31F47826900616478 /* AU252627.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8ED1F47826900616478 /* AU252627.pdf */; };
+		182EC8F41F47826900616478 /* AU16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8EE1F47826900616478 /* AU16.pdf */; };
+		182EC8F91F479AE400616478 /* AU9_16_25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8F51F479AE400616478 /* AU9_16_25.pdf */; };
+		182EC8FA1F479AE400616478 /* AU10_16_25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8F61F479AE400616478 /* AU10_16_25.pdf */; };
+		182EC8FB1F479AE400616478 /* AU9_17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8F71F479AE400616478 /* AU9_17.pdf */; };
+		182EC8FC1F479AE400616478 /* AU10_15_17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8F81F479AE400616478 /* AU10_15_17.pdf */; };
+		182EC9001F479B8C00616478 /* AU20.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8FE1F479B8C00616478 /* AU20.pdf */; };
+		182EC9011F479B8C00616478 /* AU14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC8FF1F479B8C00616478 /* AU14.pdf */; };
+		182EC9031F479BB700616478 /* Ch5_SD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9021F479BB700616478 /* Ch5_SD.pdf */; };
+		182EC9081F479BC000616478 /* AU20_2627.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9041F479BC000616478 /* AU20_2627.pdf */; };
+		182EC9091F479BC000616478 /* AU10_14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9051F479BC000616478 /* AU10_14.pdf */; };
+		182EC90A1F479BC000616478 /* AU14_17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9061F479BC000616478 /* AU14_17.pdf */; };
+		182EC90B1F479BC000616478 /* AU10_20_25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9071F479BC000616478 /* AU10_20_25.pdf */; };
+		182EC9101F479C8F00616478 /* AU11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC90D1F479C8F00616478 /* AU11.pdf */; };
+		182EC9111F479C8F00616478 /* AU12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC90E1F479C8F00616478 /* AU12.pdf */; };
+		182EC9121F479C8F00616478 /* AU13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC90F1F479C8F00616478 /* AU13.pdf */; };
+		182EC9181F479CA200616478 /* AU67_12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9131F479CA200616478 /* AU67_12.pdf */; };
+		182EC9191F479CA200616478 /* AU10_12_16_25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9141F479CA200616478 /* AU10_12_16_25.pdf */; };
+		182EC91A1F479CA200616478 /* AU12_2627.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9151F479CA200616478 /* AU12_2627.pdf */; };
+		182EC91B1F479CA200616478 /* AU12_17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9161F479CA200616478 /* AU12_17.pdf */; };
+		182EC91C1F479CA200616478 /* AU6_12_15_17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9171F479CA200616478 /* AU6_12_15_17.pdf */; };
+		182EC9321F479D5100616478 /* AU18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9201F479D5100616478 /* AU18.pdf */; };
+		182EC9331F479D5100616478 /* AU22.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9211F479D5100616478 /* AU22.pdf */; };
+		182EC9341F479D5100616478 /* AU23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9221F479D5100616478 /* AU23.pdf */; };
+		182EC9351F479D5100616478 /* AU24.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9231F479D5100616478 /* AU24.pdf */; };
+		182EC9361F479D5100616478 /* AU28.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9241F479D5100616478 /* AU28.pdf */; };
+		182EC9391F479D5100616478 /* AU10_23_25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9271F479D5100616478 /* AU10_23_25.pdf */; };
+		182EC93A1F479D5100616478 /* AU12_2324.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9281F479D5100616478 /* AU12_2324.pdf */; };
+		182EC93B1F479D5100616478 /* AU14_23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9291F479D5100616478 /* AU14_23.pdf */; };
+		182EC93C1F479D5100616478 /* AU17_2324.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC92A1F479D5100616478 /* AU17_2324.pdf */; };
+		182EC93D1F479D5100616478 /* AU6_12_17_23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC92B1F479D5100616478 /* AU6_12_17_23.pdf */; };
+		182EC93E1F479D5100616478 /* AU10_17_23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC92C1F479D5100616478 /* AU10_17_23.pdf */; };
+		182EC93F1F479D5100616478 /* AU18_23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC92D1F479D5100616478 /* AU18_23.pdf */; };
+		182EC9401F479D5100616478 /* AU15_23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC92E1F479D5100616478 /* AU15_23.pdf */; };
+		182EC9411F479D5100616478 /* AU23_25_26.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC92F1F479D5100616478 /* AU23_25_26.pdf */; };
+		182EC9421F479D5100616478 /* AU22_23_25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9301F479D5100616478 /* AU22_23_25.pdf */; };
+		182EC9431F479D5100616478 /* AU20_23_25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9311F479D5100616478 /* AU20_23_25.pdf */; };
+		182EC9491F479F7F00616478 /* Ch6_Muscles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9481F479F7F00616478 /* Ch6_Muscles.pdf */; };
+		182EC94B1F479F8D00616478 /* Ch7_Muscles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC94A1F479F8D00616478 /* Ch7_Muscles.pdf */; };
+		182EC94D1F479F9500616478 /* Ch5_Muscles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC94C1F479F9500616478 /* Ch5_Muscles.pdf */; };
+		182EC94F1F479FA100616478 /* Ch4_Muscles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC94E1F479FA100616478 /* Ch4_Muscles.pdf */; };
+		182EC9521F47A19200616478 /* Ch1_Chart.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9511F47A19200616478 /* Ch1_Chart.pdf */; };
+		182EC9541F47A26300616478 /* Ch1_Examples.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 182EC9531F47A26300616478 /* Ch1_Examples.pdf */; };
+		186D4C031F42F70E0091E6E0 /* MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 186D4C021F42F70E0091E6E0 /* MP4 */; };
+		189B038D1F417DA800E9C9A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B038C1F417DA800E9C9A7 /* AppDelegate.swift */; };
+		189B03921F417DA800E9C9A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189B03901F417DA800E9C9A7 /* Main.storyboard */; };
+		189B03941F417DA800E9C9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189B03931F417DA800E9C9A7 /* Assets.xcassets */; };
+		189B03971F417DA800E9C9A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189B03951F417DA800E9C9A7 /* LaunchScreen.storyboard */; };
+		18F496851F429D2D00E51223 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F496841F429D2D00E51223 /* PDFViewController.swift */; };
+		18F496871F429D3700E51223 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F496861F429D3700E51223 /* PictureViewController.swift */; };
+		18F496891F429D4B00E51223 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F496881F429D4B00E51223 /* VideoViewController.swift */; };
+		18F4968B1F429D5300E51223 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4968A1F429D5300E51223 /* NoteViewController.swift */; };
+		18F496941F42AF4100E51223 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F496931F42AF4100E51223 /* Library.swift */; };
+		974D4BA1B96BE521245413C8 /* Pods_FACS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198E1467A53C1D1FCE3C52A9 /* Pods_FACS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157336CA2A73B6F236FE9F9A /* Pods-FACS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FACS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FACS/Pods-FACS.release.xcconfig"; sourceTree = "<group>"; };
+		182B2ECC1F4D4024000480E6 /* Ch4_SD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch4_SD.pdf; sourceTree = "<group>"; };
+		182B2ECE1F4D402C000480E6 /* Ch7_SD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch7_SD.pdf; sourceTree = "<group>"; };
+		182B2ED01F4D4041000480E6 /* Ch6_SD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch6_SD.pdf; sourceTree = "<group>"; };
+		182EC8A31F439AA400616478 /* AU1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU1.pdf; sourceTree = "<group>"; };
+		182EC8A51F43CC3A00616478 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		182EC8A91F43CDB400616478 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		182EC8AB1F45348F00616478 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		182EC8AE1F45848200616478 /* AU2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU2.pdf; sourceTree = "<group>"; };
+		182EC8AF1F45848200616478 /* AU4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU4.pdf; sourceTree = "<group>"; };
+		182EC8B01F45848200616478 /* AU7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU7.pdf; sourceTree = "<group>"; };
+		182EC8B51F45A3DD00616478 /* Science Fair.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Science Fair.otf"; sourceTree = "<group>"; };
+		182EC8B71F462B5F00616478 /* AU1_2_4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU1_2_4.pdf; sourceTree = "<group>"; };
+		182EC8B81F462B5F00616478 /* AU1_2_5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU1_2_5.pdf; sourceTree = "<group>"; };
+		182EC8B91F462B5F00616478 /* AU1_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU1_2.pdf; sourceTree = "<group>"; };
+		182EC8BA1F462B5F00616478 /* AU1_4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU1_4.pdf; sourceTree = "<group>"; };
+		182EC8BB1F462B5F00616478 /* AU4_5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU4_5.pdf; sourceTree = "<group>"; };
+		182EC8BC1F462B5F00616478 /* AU5_7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU5_7.pdf; sourceTree = "<group>"; };
+		182EC8BD1F462B5F00616478 /* AU5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU5.pdf; sourceTree = "<group>"; };
+		182EC8BE1F462B5F00616478 /* AU6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU6.pdf; sourceTree = "<group>"; };
+		182EC8BF1F462B5F00616478 /* AU46.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU46.pdf; sourceTree = "<group>"; };
+		182EC8C01F462B5F00616478 /* AU67_43.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU67_43.pdf; sourceTree = "<group>"; };
+		182EC8C11F462B5F00616478 /* Ch2_Muscles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch2_Muscles.pdf; sourceTree = "<group>"; };
+		182EC8C21F462B5F00616478 /* Ch2_SD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch2_SD.pdf; sourceTree = "<group>"; };
+		182EC8D01F462F9800616478 /* AU43.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU43.pdf; sourceTree = "<group>"; };
+		182EC8D11F462F9800616478 /* AU45.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU45.pdf; sourceTree = "<group>"; };
+		182EC8E01F477DA800616478 /* AU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU.pdf; sourceTree = "<group>"; };
+		182EC8E91F47826900616478 /* AU9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU9.pdf; sourceTree = "<group>"; };
+		182EC8EA1F47826900616478 /* AU10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU10.pdf; sourceTree = "<group>"; };
+		182EC8EB1F47826900616478 /* AU17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU17.pdf; sourceTree = "<group>"; };
+		182EC8EC1F47826900616478 /* AU15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU15.pdf; sourceTree = "<group>"; };
+		182EC8ED1F47826900616478 /* AU252627.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU252627.pdf; sourceTree = "<group>"; };
+		182EC8EE1F47826900616478 /* AU16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU16.pdf; sourceTree = "<group>"; };
+		182EC8F51F479AE400616478 /* AU9_16_25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU9_16_25.pdf; sourceTree = "<group>"; };
+		182EC8F61F479AE400616478 /* AU10_16_25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU10_16_25.pdf; sourceTree = "<group>"; };
+		182EC8F71F479AE400616478 /* AU9_17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU9_17.pdf; sourceTree = "<group>"; };
+		182EC8F81F479AE400616478 /* AU10_15_17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU10_15_17.pdf; sourceTree = "<group>"; };
+		182EC8FE1F479B8C00616478 /* AU20.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU20.pdf; sourceTree = "<group>"; };
+		182EC8FF1F479B8C00616478 /* AU14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU14.pdf; sourceTree = "<group>"; };
+		182EC9021F479BB700616478 /* Ch5_SD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch5_SD.pdf; sourceTree = "<group>"; };
+		182EC9041F479BC000616478 /* AU20_2627.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU20_2627.pdf; sourceTree = "<group>"; };
+		182EC9051F479BC000616478 /* AU10_14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU10_14.pdf; sourceTree = "<group>"; };
+		182EC9061F479BC000616478 /* AU14_17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU14_17.pdf; sourceTree = "<group>"; };
+		182EC9071F479BC000616478 /* AU10_20_25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU10_20_25.pdf; sourceTree = "<group>"; };
+		182EC90D1F479C8F00616478 /* AU11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU11.pdf; sourceTree = "<group>"; };
+		182EC90E1F479C8F00616478 /* AU12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU12.pdf; sourceTree = "<group>"; };
+		182EC90F1F479C8F00616478 /* AU13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU13.pdf; sourceTree = "<group>"; };
+		182EC9131F479CA200616478 /* AU67_12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU67_12.pdf; sourceTree = "<group>"; };
+		182EC9141F479CA200616478 /* AU10_12_16_25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU10_12_16_25.pdf; sourceTree = "<group>"; };
+		182EC9151F479CA200616478 /* AU12_2627.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU12_2627.pdf; sourceTree = "<group>"; };
+		182EC9161F479CA200616478 /* AU12_17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU12_17.pdf; sourceTree = "<group>"; };
+		182EC9171F479CA200616478 /* AU6_12_15_17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU6_12_15_17.pdf; sourceTree = "<group>"; };
+		182EC9201F479D5100616478 /* AU18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU18.pdf; sourceTree = "<group>"; };
+		182EC9211F479D5100616478 /* AU22.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU22.pdf; sourceTree = "<group>"; };
+		182EC9221F479D5100616478 /* AU23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU23.pdf; sourceTree = "<group>"; };
+		182EC9231F479D5100616478 /* AU24.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU24.pdf; sourceTree = "<group>"; };
+		182EC9241F479D5100616478 /* AU28.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU28.pdf; sourceTree = "<group>"; };
+		182EC9271F479D5100616478 /* AU10_23_25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU10_23_25.pdf; sourceTree = "<group>"; };
+		182EC9281F479D5100616478 /* AU12_2324.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU12_2324.pdf; sourceTree = "<group>"; };
+		182EC9291F479D5100616478 /* AU14_23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU14_23.pdf; sourceTree = "<group>"; };
+		182EC92A1F479D5100616478 /* AU17_2324.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU17_2324.pdf; sourceTree = "<group>"; };
+		182EC92B1F479D5100616478 /* AU6_12_17_23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU6_12_17_23.pdf; sourceTree = "<group>"; };
+		182EC92C1F479D5100616478 /* AU10_17_23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU10_17_23.pdf; sourceTree = "<group>"; };
+		182EC92D1F479D5100616478 /* AU18_23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU18_23.pdf; sourceTree = "<group>"; };
+		182EC92E1F479D5100616478 /* AU15_23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU15_23.pdf; sourceTree = "<group>"; };
+		182EC92F1F479D5100616478 /* AU23_25_26.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU23_25_26.pdf; sourceTree = "<group>"; };
+		182EC9301F479D5100616478 /* AU22_23_25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU22_23_25.pdf; sourceTree = "<group>"; };
+		182EC9311F479D5100616478 /* AU20_23_25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AU20_23_25.pdf; sourceTree = "<group>"; };
+		182EC9481F479F7F00616478 /* Ch6_Muscles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch6_Muscles.pdf; sourceTree = "<group>"; };
+		182EC94A1F479F8D00616478 /* Ch7_Muscles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch7_Muscles.pdf; sourceTree = "<group>"; };
+		182EC94C1F479F9500616478 /* Ch5_Muscles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch5_Muscles.pdf; sourceTree = "<group>"; };
+		182EC94E1F479FA100616478 /* Ch4_Muscles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch4_Muscles.pdf; sourceTree = "<group>"; };
+		182EC9511F47A19200616478 /* Ch1_Chart.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch1_Chart.pdf; sourceTree = "<group>"; };
+		182EC9531F47A26300616478 /* Ch1_Examples.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ch1_Examples.pdf; sourceTree = "<group>"; };
+		186D4C021F42F70E0091E6E0 /* MP4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MP4; sourceTree = "<group>"; };
+		189B03891F417DA800E9C9A7 /* FACS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FACS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189B038C1F417DA800E9C9A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189B03911F417DA800E9C9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189B03931F417DA800E9C9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189B03961F417DA800E9C9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189B03981F417DA800E9C9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F496841F429D2D00E51223 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		18F496861F429D3700E51223 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		18F496881F429D4B00E51223 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		18F4968A1F429D5300E51223 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		18F496931F42AF4100E51223 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		198E1467A53C1D1FCE3C52A9 /* Pods_FACS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FACS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFBCE793BA9BDF6EAB94E15 /* Pods-FACS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FACS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FACS/Pods-FACS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189B03861F417DA800E9C9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974D4BA1B96BE521245413C8 /* Pods_FACS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17711176F566338F43768A99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEFBCE793BA9BDF6EAB94E15 /* Pods-FACS.debug.xcconfig */,
+				157336CA2A73B6F236FE9F9A /* Pods-FACS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		182EC8AD1F4583E500616478 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				182EC9501F47A18300616478 /* CH1 */,
+				182EC8CF1F462D4F00616478 /* CH2 */,
+				182EC8E81F47825100616478 /* CH4 */,
+				182EC8FD1F479B1F00616478 /* CH5 */,
+				182EC90C1F479C5F00616478 /* CH6 */,
+				182EC91F1F479D0400616478 /* CH7 */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		182EC8B41F45A3B200616478 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				182EC8B51F45A3DD00616478 /* Science Fair.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		182EC8CF1F462D4F00616478 /* CH2 */ = {
+			isa = PBXGroup;
+			children = (
+				182EC8B71F462B5F00616478 /* AU1_2_4.pdf */,
+				182EC8B81F462B5F00616478 /* AU1_2_5.pdf */,
+				182EC8B91F462B5F00616478 /* AU1_2.pdf */,
+				182EC8BA1F462B5F00616478 /* AU1_4.pdf */,
+				182EC8BB1F462B5F00616478 /* AU4_5.pdf */,
+				182EC8BC1F462B5F00616478 /* AU5_7.pdf */,
+				182EC8E01F477DA800616478 /* AU.pdf */,
+				182EC8BD1F462B5F00616478 /* AU5.pdf */,
+				182EC8BE1F462B5F00616478 /* AU6.pdf */,
+				182EC8BF1F462B5F00616478 /* AU46.pdf */,
+				182EC8D01F462F9800616478 /* AU43.pdf */,
+				182EC8D11F462F9800616478 /* AU45.pdf */,
+				182EC8C01F462B5F00616478 /* AU67_43.pdf */,
+				182EC8C11F462B5F00616478 /* Ch2_Muscles.pdf */,
+				182EC8C21F462B5F00616478 /* Ch2_SD.pdf */,
+				182EC8AE1F45848200616478 /* AU2.pdf */,
+				182EC8AF1F45848200616478 /* AU4.pdf */,
+				182EC8B01F45848200616478 /* AU7.pdf */,
+				182EC8A31F439AA400616478 /* AU1.pdf */,
+			);
+			name = CH2;
+			sourceTree = "<group>";
+		};
+		182EC8E81F47825100616478 /* CH4 */ = {
+			isa = PBXGroup;
+			children = (
+				182EC94E1F479FA100616478 /* Ch4_Muscles.pdf */,
+				182B2ECC1F4D4024000480E6 /* Ch4_SD.pdf */,
+				182EC8E91F47826900616478 /* AU9.pdf */,
+				182EC8EA1F47826900616478 /* AU10.pdf */,
+				182EC8F51F479AE400616478 /* AU9_16_25.pdf */,
+				182EC8F61F479AE400616478 /* AU10_16_25.pdf */,
+				182EC8F71F479AE400616478 /* AU9_17.pdf */,
+				182EC8F81F479AE400616478 /* AU10_15_17.pdf */,
+				182EC8EB1F47826900616478 /* AU17.pdf */,
+				182EC8EC1F47826900616478 /* AU15.pdf */,
+				182EC8ED1F47826900616478 /* AU252627.pdf */,
+				182EC8EE1F47826900616478 /* AU16.pdf */,
+			);
+			name = CH4;
+			sourceTree = "<group>";
+		};
+		182EC8FD1F479B1F00616478 /* CH5 */ = {
+			isa = PBXGroup;
+			children = (
+				182EC94C1F479F9500616478 /* Ch5_Muscles.pdf */,
+				182EC8FE1F479B8C00616478 /* AU20.pdf */,
+				182EC8FF1F479B8C00616478 /* AU14.pdf */,
+				182EC9021F479BB700616478 /* Ch5_SD.pdf */,
+				182EC9041F479BC000616478 /* AU20_2627.pdf */,
+				182EC9051F479BC000616478 /* AU10_14.pdf */,
+				182EC9061F479BC000616478 /* AU14_17.pdf */,
+				182EC9071F479BC000616478 /* AU10_20_25.pdf */,
+			);
+			name = CH5;
+			sourceTree = "<group>";
+		};
+		182EC90C1F479C5F00616478 /* CH6 */ = {
+			isa = PBXGroup;
+			children = (
+				182EC9481F479F7F00616478 /* Ch6_Muscles.pdf */,
+				182B2ED01F4D4041000480E6 /* Ch6_SD.pdf */,
+				182EC90D1F479C8F00616478 /* AU11.pdf */,
+				182EC90E1F479C8F00616478 /* AU12.pdf */,
+				182EC90F1F479C8F00616478 /* AU13.pdf */,
+				182EC9131F479CA200616478 /* AU67_12.pdf */,
+				182EC9141F479CA200616478 /* AU10_12_16_25.pdf */,
+				182EC9151F479CA200616478 /* AU12_2627.pdf */,
+				182EC9161F479CA200616478 /* AU12_17.pdf */,
+				182EC9171F479CA200616478 /* AU6_12_15_17.pdf */,
+			);
+			name = CH6;
+			sourceTree = "<group>";
+		};
+		182EC91F1F479D0400616478 /* CH7 */ = {
+			isa = PBXGroup;
+			children = (
+				182EC94A1F479F8D00616478 /* Ch7_Muscles.pdf */,
+				182B2ECE1F4D402C000480E6 /* Ch7_SD.pdf */,
+				182EC9201F479D5100616478 /* AU18.pdf */,
+				182EC9211F479D5100616478 /* AU22.pdf */,
+				182EC9221F479D5100616478 /* AU23.pdf */,
+				182EC9231F479D5100616478 /* AU24.pdf */,
+				182EC9241F479D5100616478 /* AU28.pdf */,
+				182EC9271F479D5100616478 /* AU10_23_25.pdf */,
+				182EC9281F479D5100616478 /* AU12_2324.pdf */,
+				182EC9291F479D5100616478 /* AU14_23.pdf */,
+				182EC92A1F479D5100616478 /* AU17_2324.pdf */,
+				182EC92B1F479D5100616478 /* AU6_12_17_23.pdf */,
+				182EC92C1F479D5100616478 /* AU10_17_23.pdf */,
+				182EC92D1F479D5100616478 /* AU18_23.pdf */,
+				182EC92E1F479D5100616478 /* AU15_23.pdf */,
+				182EC92F1F479D5100616478 /* AU23_25_26.pdf */,
+				182EC9301F479D5100616478 /* AU22_23_25.pdf */,
+				182EC9311F479D5100616478 /* AU20_23_25.pdf */,
+			);
+			name = CH7;
+			sourceTree = "<group>";
+		};
+		182EC9501F47A18300616478 /* CH1 */ = {
+			isa = PBXGroup;
+			children = (
+				182EC9511F47A19200616478 /* Ch1_Chart.pdf */,
+				182EC9531F47A26300616478 /* Ch1_Examples.pdf */,
+			);
+			name = CH1;
+			sourceTree = "<group>";
+		};
+		189B03801F417DA800E9C9A7 = {
+			isa = PBXGroup;
+			children = (
+				189B038B1F417DA800E9C9A7 /* FACS */,
+				189B038A1F417DA800E9C9A7 /* Products */,
+				17711176F566338F43768A99 /* Pods */,
+				8A325A854AFFC920CC5C730B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		189B038A1F417DA800E9C9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189B03891F417DA800E9C9A7 /* FACS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189B038B1F417DA800E9C9A7 /* FACS */ = {
+			isa = PBXGroup;
+			children = (
+				189B038C1F417DA800E9C9A7 /* AppDelegate.swift */,
+				18F4968D1F42A6E500E51223 /* Model */,
+				18F4968E1F42A6F600E51223 /* View */,
+				18F4968C1F429D6B00E51223 /* Controller */,
+				189B03901F417DA800E9C9A7 /* Main.storyboard */,
+				189B03931F417DA800E9C9A7 /* Assets.xcassets */,
+				182EC8AD1F4583E500616478 /* PDF */,
+				186D4C021F42F70E0091E6E0 /* MP4 */,
+				182EC8B41F45A3B200616478 /* Resources */,
+				189B03951F417DA800E9C9A7 /* LaunchScreen.storyboard */,
+				189B03981F417DA800E9C9A7 /* Info.plist */,
+			);
+			path = FACS;
+			sourceTree = "<group>";
+		};
+		18F4968C1F429D6B00E51223 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				182EC8A91F43CDB400616478 /* MainNavigationController.swift */,
+				18F496841F429D2D00E51223 /* PDFViewController.swift */,
+				18F496861F429D3700E51223 /* PictureViewController.swift */,
+				18F496881F429D4B00E51223 /* VideoViewController.swift */,
+				18F4968A1F429D5300E51223 /* NoteViewController.swift */,
+				182EC8A51F43CC3A00616478 /* MenuViewController.swift */,
+				182EC8AB1F45348F00616478 /* TabViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		18F4968D1F42A6E500E51223 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F496931F42AF4100E51223 /* Library.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18F4968E1F42A6F600E51223 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8A325A854AFFC920CC5C730B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				198E1467A53C1D1FCE3C52A9 /* Pods_FACS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189B03881F417DA800E9C9A7 /* FACS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189B039B1F417DA800E9C9A7 /* Build configuration list for PBXNativeTarget "FACS" */;
+			buildPhases = (
+				013753F466BD7AF87DEA2D72 /* [CP] Check Pods Manifest.lock */,
+				189B03851F417DA800E9C9A7 /* Sources */,
+				189B03861F417DA800E9C9A7 /* Frameworks */,
+				189B03871F417DA800E9C9A7 /* Resources */,
+				1BCB3F467C71E357AD8D83E0 /* [CP] Embed Pods Frameworks */,
+				B1169149DB673DE1959EF894 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FACS;
+			productName = FACS;
+			productReference = 189B03891F417DA800E9C9A7 /* FACS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189B03811F417DA800E9C9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = garg;
+				TargetAttributes = {
+					189B03881F417DA800E9C9A7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P4D3655X78;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 189B03841F417DA800E9C9A7 /* Build configuration list for PBXProject "FACS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189B03801F417DA800E9C9A7;
+			productRefGroup = 189B038A1F417DA800E9C9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189B03881F417DA800E9C9A7 /* FACS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189B03871F417DA800E9C9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182EC8C31F462B5F00616478 /* AU1_2_4.pdf in Resources */,
+				182EC90A1F479BC000616478 /* AU14_17.pdf in Resources */,
+				182EC8F21F47826900616478 /* AU15.pdf in Resources */,
+				182EC8F31F47826900616478 /* AU252627.pdf in Resources */,
+				182EC8CA1F462B5F00616478 /* AU6.pdf in Resources */,
+				182EC8C41F462B5F00616478 /* AU1_2_5.pdf in Resources */,
+				182EC8CD1F462B5F00616478 /* Ch2_Muscles.pdf in Resources */,
+				182EC9331F479D5100616478 /* AU22.pdf in Resources */,
+				182EC9401F479D5100616478 /* AU15_23.pdf in Resources */,
+				182EC8B21F45848200616478 /* AU4.pdf in Resources */,
+				182EC8FC1F479AE400616478 /* AU10_15_17.pdf in Resources */,
+				182EC8B61F45A3DD00616478 /* Science Fair.otf in Resources */,
+				182EC9341F479D5100616478 /* AU23.pdf in Resources */,
+				182EC93A1F479D5100616478 /* AU12_2324.pdf in Resources */,
+				182EC9081F479BC000616478 /* AU20_2627.pdf in Resources */,
+				182EC8C61F462B5F00616478 /* AU1_4.pdf in Resources */,
+				182B2ECF1F4D402C000480E6 /* Ch7_SD.pdf in Resources */,
+				182EC9391F479D5100616478 /* AU10_23_25.pdf in Resources */,
+				182EC8CB1F462B5F00616478 /* AU46.pdf in Resources */,
+				182EC9101F479C8F00616478 /* AU11.pdf in Resources */,
+				182EC9351F479D5100616478 /* AU24.pdf in Resources */,
+				182EC8CE1F462B5F00616478 /* Ch2_SD.pdf in Resources */,
+				182EC9541F47A26300616478 /* Ch1_Examples.pdf in Resources */,
+				182EC91C1F479CA200616478 /* AU6_12_15_17.pdf in Resources */,
+				182B2ECD1F4D4024000480E6 /* Ch4_SD.pdf in Resources */,
+				182EC8A41F439AA400616478 /* AU1.pdf in Resources */,
+				182EC9111F479C8F00616478 /* AU12.pdf in Resources */,
+				182EC8FA1F479AE400616478 /* AU10_16_25.pdf in Resources */,
+				182EC8EF1F47826900616478 /* AU9.pdf in Resources */,
+				182EC94D1F479F9500616478 /* Ch5_Muscles.pdf in Resources */,
+				182EC8C81F462B5F00616478 /* AU5_7.pdf in Resources */,
+				186D4C031F42F70E0091E6E0 /* MP4 in Resources */,
+				182EC9361F479D5100616478 /* AU28.pdf in Resources */,
+				182EC8F11F47826900616478 /* AU17.pdf in Resources */,
+				182EC93D1F479D5100616478 /* AU6_12_17_23.pdf in Resources */,
+				182EC94F1F479FA100616478 /* Ch4_Muscles.pdf in Resources */,
+				182EC8CC1F462B5F00616478 /* AU67_43.pdf in Resources */,
+				182EC8C71F462B5F00616478 /* AU4_5.pdf in Resources */,
+				182EC9011F479B8C00616478 /* AU14.pdf in Resources */,
+				182EC94B1F479F8D00616478 /* Ch7_Muscles.pdf in Resources */,
+				182EC90B1F479BC000616478 /* AU10_20_25.pdf in Resources */,
+				182EC9181F479CA200616478 /* AU67_12.pdf in Resources */,
+				182EC9001F479B8C00616478 /* AU20.pdf in Resources */,
+				182EC93E1F479D5100616478 /* AU10_17_23.pdf in Resources */,
+				189B03971F417DA800E9C9A7 /* LaunchScreen.storyboard in Resources */,
+				182EC9031F479BB700616478 /* Ch5_SD.pdf in Resources */,
+				182EC9431F479D5100616478 /* AU20_23_25.pdf in Resources */,
+				182EC8FB1F479AE400616478 /* AU9_17.pdf in Resources */,
+				182EC9121F479C8F00616478 /* AU13.pdf in Resources */,
+				182B2ED11F4D4041000480E6 /* Ch6_SD.pdf in Resources */,
+				182EC9491F479F7F00616478 /* Ch6_Muscles.pdf in Resources */,
+				182EC93C1F479D5100616478 /* AU17_2324.pdf in Resources */,
+				182EC8C91F462B5F00616478 /* AU5.pdf in Resources */,
+				182EC8F01F47826900616478 /* AU10.pdf in Resources */,
+				182EC93B1F479D5100616478 /* AU14_23.pdf in Resources */,
+				182EC8B31F45848200616478 /* AU7.pdf in Resources */,
+				182EC8B11F45848200616478 /* AU2.pdf in Resources */,
+				182EC9521F47A19200616478 /* Ch1_Chart.pdf in Resources */,
+				182EC91A1F479CA200616478 /* AU12_2627.pdf in Resources */,
+				182EC9411F479D5100616478 /* AU23_25_26.pdf in Resources */,
+				182EC8C51F462B5F00616478 /* AU1_2.pdf in Resources */,
+				182EC8D21F462F9800616478 /* AU43.pdf in Resources */,
+				182EC8F91F479AE400616478 /* AU9_16_25.pdf in Resources */,
+				182EC8F41F47826900616478 /* AU16.pdf in Resources */,
+				182EC93F1F479D5100616478 /* AU18_23.pdf in Resources */,
+				182EC8D31F462F9800616478 /* AU45.pdf in Resources */,
+				182EC8E51F477DA800616478 /* AU.pdf in Resources */,
+				182EC9191F479CA200616478 /* AU10_12_16_25.pdf in Resources */,
+				189B03941F417DA800E9C9A7 /* Assets.xcassets in Resources */,
+				182EC9321F479D5100616478 /* AU18.pdf in Resources */,
+				189B03921F417DA800E9C9A7 /* Main.storyboard in Resources */,
+				182EC91B1F479CA200616478 /* AU12_17.pdf in Resources */,
+				182EC9421F479D5100616478 /* AU22_23_25.pdf in Resources */,
+				182EC9091F479BC000616478 /* AU10_14.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013753F466BD7AF87DEA2D72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1BCB3F467C71E357AD8D83E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FACS/Pods-FACS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1169149DB673DE1959EF894 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FACS/Pods-FACS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189B03851F417DA800E9C9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182EC8AA1F43CDB400616478 /* MainNavigationController.swift in Sources */,
+				18F496851F429D2D00E51223 /* PDFViewController.swift in Sources */,
+				18F496941F42AF4100E51223 /* Library.swift in Sources */,
+				18F496871F429D3700E51223 /* PictureViewController.swift in Sources */,
+				182EC8A61F43CC3A00616478 /* MenuViewController.swift in Sources */,
+				18F496891F429D4B00E51223 /* VideoViewController.swift in Sources */,
+				182EC8AC1F45348F00616478 /* TabViewController.swift in Sources */,
+				18F4968B1F429D5300E51223 /* NoteViewController.swift in Sources */,
+				189B038D1F417DA800E9C9A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189B03901F417DA800E9C9A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189B03911F417DA800E9C9A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189B03951F417DA800E9C9A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189B03961F417DA800E9C9A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189B03991F417DA800E9C9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189B039A1F417DA800E9C9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189B039C1F417DA800E9C9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFBCE793BA9BDF6EAB94E15 /* Pods-FACS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P4D3655X78;
+				INFOPLIST_FILE = FACS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.garg.FACS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		189B039D1F417DA800E9C9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157336CA2A73B6F236FE9F9A /* Pods-FACS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P4D3655X78;
+				INFOPLIST_FILE = FACS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.garg.FACS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189B03841F417DA800E9C9A7 /* Build configuration list for PBXProject "FACS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189B03991F417DA800E9C9A7 /* Debug */,
+				189B039A1F417DA800E9C9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189B039B1F417DA800E9C9A7 /* Build configuration list for PBXNativeTarget "FACS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189B039C1F417DA800E9C9A7 /* Debug */,
+				189B039D1F417DA800E9C9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189B03811F417DA800E9C9A7 /* Project object */;
+}
